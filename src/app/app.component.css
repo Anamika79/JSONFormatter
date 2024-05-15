@@ -1,0 +1,51 @@
+.navbar {
+    background-color: black;
+    color: white;
+    height: 50px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 999;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar-logo img {
+    margin-top: -10px;
+    margin-left: -50px;
+    height: 50px;
+    width: 150px;
+}
+
+.nav-links {
+    list-style-type: none;
+    letter-spacing: 1px;
+    font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
+    font-size: 14px;
+    margin-right: -15px;
+    margin-top: 5px;
+}
+
+.nav-links li {
+    display: inline-block;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    padding: 15px 10px;
+    line-height: 20px;
+}
+
+.nav-links li a:hover {
+    color: #dad6d6;
+}
+
+.nav-links li:not(:last-child) a {
+    margin-right: 20px; /* Add margin between the links */
+}

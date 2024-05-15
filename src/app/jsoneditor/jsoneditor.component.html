@@ -1,0 +1,39 @@
+<div class="container">
+    <div class="row">
+     
+        <div class="app-ace-editor1 col-md-5" #editor1></div>
+       
+        <div class="midcontainer col-md-2">
+            <div class="button-box">
+                <button class="highlight-on-hover">Upload Data</button>
+            </div>
+            <div class="button-box">
+                <button class="highlight-on-hover">Validate</button>
+            </div>
+            <div class="dropdown-box">
+                <select>
+                    <option value="2-tab-data">3 Tab Data</option>
+                    <option value="3-tab-data">4 Tab Data</option>
+                    <option value="4-tab-data">5 Tab Data</option>
+                </select>
+            </div>
+            <div class="button-box">
+                <button class="highlight-on-hover" (click)="beautifyJson()">Format/Beautify</button>
+            </div>
+            <div class="button-box">
+                <button class="highlight-on-hover">Minify/Compact</button>
+            </div>
+            <div class="dropdown-box">
+                <select>
+                    <option value="json-to-xml">JSON to XML</option>
+                    <option value="json-to-csv">JSON to CSV</option>
+                    <option value="json-to-yaml">JSON to YAML</option>
+                </select>
+            </div>
+            <div class="button-box">
+                <button class="highlight-on-hover">Download</button>
+            </div>
+        </div>
+        <div class="app-ace-editor2 col-md-5" #editor2></div>
+    </div>
+</div>

@@ -1,0 +1,81 @@
+.row{
+    margin-top: 10%;
+    height: max-content;
+}
+
+.app-ace-editor2{
+    border: 2px solid #f1ebeb;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.leftcontainer {
+    position: relative;
+}
+
+.fas fa-arrows-alt{
+    color: #fff;
+}
+
+.black-bar {
+    background-color: gray;
+    color: white;
+    height: 35px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 20px; /* Padding for the theme button */
+}
+
+.black-bar .expand-button {
+    background: none;
+    border: none;
+}
+
+.app-ace-editor1 {
+    border: 2px solid #f8f9fa;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}
+
+.expanded .app-ace-editor1 {
+    height: calc(100vh - 35px); /* Adjust height when expanded */
+}
+
+.button-box,
+.dropdown-box{
+    padding: 5%;
+}
+
+.button-box button,
+.dropdown-box select {
+    align-content: center;
+    width: 100%;
+    padding: 10px;
+    background-color: black;
+    color: #fff;
+    border: 2px solid #ccc;
+    cursor: pointer;
+    appearance: none;
+}
+
+.button-box button:hover,
+.dropdown-box select:hover {
+    background-color: darkgrey;
+}
+
+.highlight-on-hover:hover {
+    background-color: #e6e6e6;
+}
+
+.dropdown-box select {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url('data:image/svg+xml;utf8,<svg fill="%23444444" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><path d="M10 12l-6-6h12l-6 6z"/></svg>');
+    background-repeat: no-repeat;
+    background-position-x: 95%;
+    background-position-y: 50%;
+}
